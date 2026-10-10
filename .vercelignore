@@ -1,0 +1,8 @@
+.env
+.git
+.local
+/writable
+/tests
+/phpunit*
+/vendor
+/docs

@@ -1,0 +1,3 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Page not found | Matchaya</title><link rel="stylesheet" href="<?= esc(base_url('assets/css/style.css'), 'attr') ?>"></head>
+<body class="error-page"><main class="error-panel"><svg class="empty-illustration" aria-hidden="true"><use href="<?= esc(base_url('assets/brand/empty-set.svg'), 'attr') ?>#chawan"/></svg><p class="eyebrow">404 · Page not found</p><h1>This page has left the counter.</h1><p>Return to the menu to start again.</p><a class="button button-primary" href="<?= esc(site_url('pos'), 'attr') ?>">Back to counter</a></main></body></html>

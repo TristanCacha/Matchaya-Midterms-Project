@@ -1,0 +1,9 @@
+<?= $this->extend('layouts/main') ?>
+<?= $this->section('content') ?>
+<div class="page-actions"><p>Keep regulars easy to find. Walk-in sales need no customer record.</p><a class="button button-primary" href="<?= esc(site_url('customers/new'), 'attr') ?>">Add customer</a></div>
+<form class="search-form" method="get" action="<?= esc(site_url('customers'), 'attr') ?>"><label for="customer-search">Search customers</label><div><input id="customer-search" name="q" value="<?= esc($search, 'attr') ?>" placeholder="Name or email"><button class="button" type="submit">Search</button></div></form>
+<?php if ($customers === []): ?><div class="empty-state"><svg class="empty-illustration" aria-hidden="true"><use href="<?= esc(base_url('assets/brand/empty-set.svg'), 'attr') ?>#leaf"/></svg><p>No customers found. Add the first regular.</p></div><?php else: ?>
+<div class="table-wrap"><table class="data-table"><caption class="sr-only">Customers</caption><thead><tr><th scope="col">Name</th><th scope="col">Email</th><th scope="col">Phone</th><th scope="col">Actions</th></tr></thead><tbody>
+<?php foreach ($customers as $customer): ?><tr><th scope="row" data-label="Name"><a href="<?= esc(site_url('customers/' . $customer['id']), 'attr') ?>"><?= esc($customer['full_name']) ?></a></th><td data-label="Email"><?= esc($customer['email']) ?></td><td data-label="Phone"><?= esc($customer['phone'] ?: '—') ?></td><td data-label="Actions"><div class="row-actions"><a class="button button-small" href="<?= esc(site_url('customers/' . $customer['id'] . '/edit'), 'attr') ?>">Edit</a><form method="post" action="<?= esc(site_url('customers/' . $customer['id'] . '/delete'), 'attr') ?>" data-confirm="Delete this customer?"><?= csrf_field() ?><button class="button button-small button-danger" type="submit">Delete</button></form></div></td></tr><?php endforeach; ?>
+</tbody></table></div><?php endif; ?>
+<?= $this->endSection() ?>

@@ -1,0 +1,778 @@
+[
+  {
+    "slug": "usucha",
+    "product": "Usucha",
+    "tier": "generated",
+    "source_url": null,
+    "author": "OpenAI image generation",
+    "license": "OpenAI Terms of Use — output ownership subject to applicable law",
+    "license_url": "https://openai.com/policies/terms-of-use/",
+    "date_retrieved": "2026-10-10",
+    "tool": "OpenAI image generation",
+    "source_file": "database/seeds/image-sources/usucha.webp",
+    "small_file": "public/assets/demo/products/usucha.webp",
+    "large_file": "public/assets/demo/products/usucha@2x.webp",
+    "modifications": "Center square crop, resize, WebP compression",
+    "alt": "Whisked usucha in a ceramic chawan with fine green foam and a bamboo whisk",
+    "dimensions": {
+      "small": [
+        640,
+        640
+      ],
+      "large": [
+        1280,
+        1280
+      ]
+    },
+    "bytes": {
+      "small": 48760,
+      "large": 85650
+    },
+    "quality": {
+      "small": 80,
+      "large": 56
+    },
+    "checks": [
+      "visual product match",
+      "square crop",
+      "file dimensions",
+      "file budget",
+      "dominant hue"
+    ],
+    "kind": "product"
+  },
+  {
+    "slug": "koicha",
+    "product": "Koicha",
+    "tier": "generated",
+    "source_url": null,
+    "author": "OpenAI image generation",
+    "license": "OpenAI Terms of Use — output ownership subject to applicable law",
+    "license_url": "https://openai.com/policies/terms-of-use/",
+    "date_retrieved": "2026-10-10",
+    "tool": "OpenAI image generation",
+    "source_file": "database/seeds/image-sources/koicha.webp",
+    "small_file": "public/assets/demo/products/koicha.webp",
+    "large_file": "public/assets/demo/products/koicha@2x.webp",
+    "modifications": "Center square crop, resize, WebP compression",
+    "alt": "Thick glossy deep green koicha in a small ceramic bowl",
+    "dimensions": {
+      "small": [
+        640,
+        640
+      ],
+      "large": [
+        1280,
+        1280
+      ]
+    },
+    "bytes": {
+      "small": 32728,
+      "large": 85432
+    },
+    "quality": {
+      "small": 80,
+      "large": 76
+    },
+    "checks": [
+      "visual product match",
+      "square crop",
+      "file dimensions",
+      "file budget",
+      "dominant hue"
+    ],
+    "kind": "product"
+  },
+  {
+    "slug": "hojicha-hot",
+    "product": "Hojicha",
+    "tier": "generated",
+    "source_url": null,
+    "author": "OpenAI image generation",
+    "license": "OpenAI Terms of Use — output ownership subject to applicable law",
+    "license_url": "https://openai.com/policies/terms-of-use/",
+    "date_retrieved": "2026-10-10",
+    "tool": "OpenAI image generation",
+    "source_file": "database/seeds/image-sources/hojicha-hot.webp",
+    "small_file": "public/assets/demo/products/hojicha-hot.webp",
+    "large_file": "public/assets/demo/products/hojicha-hot@2x.webp",
+    "modifications": "Center square crop, resize, WebP compression",
+    "alt": "Hot amber hojicha tea in a ceramic teacup",
+    "dimensions": {
+      "small": [
+        640,
+        640
+      ],
+      "large": [
+        1280,
+        1280
+      ]
+    },
+    "bytes": {
+      "small": 26790,
+      "large": 75210
+    },
+    "quality": {
+      "small": 80,
+      "large": 80
+    },
+    "checks": [
+      "visual product match",
+      "square crop",
+      "file dimensions",
+      "file budget",
+      "dominant hue"
+    ],
+    "kind": "product"
+  },
+  {
+    "slug": "hot-matcha-latte",
+    "product": "Hot Matcha Latte",
+    "tier": "generated",
+    "source_url": null,
+    "author": "OpenAI image generation",
+    "license": "OpenAI Terms of Use — output ownership subject to applicable law",
+    "license_url": "https://openai.com/policies/terms-of-use/",
+    "date_retrieved": "2026-10-10",
+    "tool": "OpenAI image generation",
+    "source_file": "database/seeds/image-sources/hot-matcha-latte.webp",
+    "small_file": "public/assets/demo/products/hot-matcha-latte.webp",
+    "large_file": "public/assets/demo/products/hot-matcha-latte@2x.webp",
+    "modifications": "Center square crop, resize, WebP compression",
+    "alt": "Hot green matcha latte with leaf art in a ceramic cup",
+    "dimensions": {
+      "small": [
+        640,
+        640
+      ],
+      "large": [
+        1280,
+        1280
+      ]
+    },
+    "bytes": {
+      "small": 26402,
+      "large": 86068
+    },
+    "quality": {
+      "small": 80,
+      "large": 80
+    },
+    "checks": [
+      "visual product match",
+      "square crop",
+      "file dimensions",
+      "file budget",
+      "dominant hue"
+    ],
+    "kind": "product"
+  },
+  {
+    "slug": "iced-matcha-latte",
+    "product": "Iced Matcha Latte",
+    "tier": "generated",
+    "source_url": null,
+    "author": "OpenAI image generation",
+    "license": "OpenAI Terms of Use — output ownership subject to applicable law",
+    "license_url": "https://openai.com/policies/terms-of-use/",
+    "date_retrieved": "2026-10-10",
+    "tool": "OpenAI image generation",
+    "source_file": "database/seeds/image-sources/iced-matcha-latte.webp",
+    "small_file": "public/assets/demo/products/iced-matcha-latte.webp",
+    "large_file": "public/assets/demo/products/iced-matcha-latte@2x.webp",
+    "modifications": "Center square crop, resize, WebP compression",
+    "alt": "Iced matcha latte with green tea swirling into white milk",
+    "dimensions": {
+      "small": [
+        640,
+        640
+      ],
+      "large": [
+        1280,
+        1280
+      ]
+    },
+    "bytes": {
+      "small": 26384,
+      "large": 72518
+    },
+    "quality": {
+      "small": 80,
+      "large": 80
+    },
+    "checks": [
+      "visual product match",
+      "square crop",
+      "file dimensions",
+      "file budget",
+      "dominant hue"
+    ],
+    "kind": "product"
+  },
+  {
+    "slug": "strawberry-matcha",
+    "product": "Strawberry Matcha",
+    "tier": "generated",
+    "source_url": null,
+    "author": "OpenAI image generation",
+    "license": "OpenAI Terms of Use — output ownership subject to applicable law",
+    "license_url": "https://openai.com/policies/terms-of-use/",
+    "date_retrieved": "2026-10-10",
+    "tool": "OpenAI image generation",
+    "source_file": "database/seeds/image-sources/strawberry-matcha.webp",
+    "small_file": "public/assets/demo/products/strawberry-matcha.webp",
+    "large_file": "public/assets/demo/products/strawberry-matcha@2x.webp",
+    "modifications": "Center square crop, resize, WebP compression",
+    "alt": "Strawberry matcha with red strawberry milk below green matcha and ice",
+    "dimensions": {
+      "small": [
+        640,
+        640
+      ],
+      "large": [
+        1280,
+        1280
+      ]
+    },
+    "bytes": {
+      "small": 27636,
+      "large": 76304
+    },
+    "quality": {
+      "small": 80,
+      "large": 80
+    },
+    "checks": [
+      "visual product match",
+      "square crop",
+      "file dimensions",
+      "file budget",
+      "dominant hue"
+    ],
+    "kind": "product"
+  },
+  {
+    "slug": "sea-salt-cream-matcha",
+    "product": "Sea Salt Cream Matcha",
+    "tier": "generated",
+    "source_url": null,
+    "author": "OpenAI image generation",
+    "license": "OpenAI Terms of Use — output ownership subject to applicable law",
+    "license_url": "https://openai.com/policies/terms-of-use/",
+    "date_retrieved": "2026-10-10",
+    "tool": "OpenAI image generation",
+    "source_file": "database/seeds/image-sources/sea-salt-cream-matcha.webp",
+    "small_file": "public/assets/demo/products/sea-salt-cream-matcha.webp",
+    "large_file": "public/assets/demo/products/sea-salt-cream-matcha@2x.webp",
+    "modifications": "Center square crop, resize, WebP compression",
+    "alt": "Iced green matcha with a thick white sea salt cream cap",
+    "dimensions": {
+      "small": [
+        640,
+        640
+      ],
+      "large": [
+        1280,
+        1280
+      ]
+    },
+    "bytes": {
+      "small": 27290,
+      "large": 81922
+    },
+    "quality": {
+      "small": 80,
+      "large": 80
+    },
+    "checks": [
+      "visual product match",
+      "square crop",
+      "file dimensions",
+      "file budget",
+      "dominant hue"
+    ],
+    "kind": "product"
+  },
+  {
+    "slug": "hojicha-latte",
+    "product": "Hojicha Latte",
+    "tier": "generated",
+    "source_url": null,
+    "author": "OpenAI image generation",
+    "license": "OpenAI Terms of Use — output ownership subject to applicable law",
+    "license_url": "https://openai.com/policies/terms-of-use/",
+    "date_retrieved": "2026-10-10",
+    "tool": "OpenAI image generation",
+    "source_file": "database/seeds/image-sources/hojicha-latte.webp",
+    "small_file": "public/assets/demo/products/hojicha-latte.webp",
+    "large_file": "public/assets/demo/products/hojicha-latte@2x.webp",
+    "modifications": "Center square crop, resize, WebP compression",
+    "alt": "Iced reddish brown hojicha latte with milk swirling through the tea",
+    "dimensions": {
+      "small": [
+        640,
+        640
+      ],
+      "large": [
+        1280,
+        1280
+      ]
+    },
+    "bytes": {
+      "small": 28032,
+      "large": 77048
+    },
+    "quality": {
+      "small": 80,
+      "large": 80
+    },
+    "checks": [
+      "visual product match",
+      "square crop",
+      "file dimensions",
+      "file budget",
+      "dominant hue"
+    ],
+    "kind": "product"
+  },
+  {
+    "slug": "banana-pudding-matcha",
+    "product": "Banana Pudding Matcha",
+    "tier": "generated",
+    "source_url": null,
+    "author": "OpenAI image generation",
+    "license": "OpenAI Terms of Use — output ownership subject to applicable law",
+    "license_url": "https://openai.com/policies/terms-of-use/",
+    "date_retrieved": "2026-10-10",
+    "tool": "OpenAI image generation",
+    "source_file": "database/seeds/image-sources/banana-pudding-matcha.webp",
+    "small_file": "public/assets/demo/products/banana-pudding-matcha.webp",
+    "large_file": "public/assets/demo/products/banana-pudding-matcha@2x.webp",
+    "modifications": "Center square crop, resize, WebP compression",
+    "alt": "Banana pudding matcha with green tea, pale yellow pudding, and cookie crumbs",
+    "dimensions": {
+      "small": [
+        640,
+        640
+      ],
+      "large": [
+        1280,
+        1280
+      ]
+    },
+    "bytes": {
+      "small": 30690,
+      "large": 86734
+    },
+    "quality": {
+      "small": 80,
+      "large": 80
+    },
+    "checks": [
+      "visual product match",
+      "square crop",
+      "file dimensions",
+      "file budget",
+      "dominant hue"
+    ],
+    "kind": "product"
+  },
+  {
+    "slug": "langka-matcha",
+    "product": "Langka Matcha",
+    "tier": "generated",
+    "source_url": null,
+    "author": "OpenAI image generation",
+    "license": "OpenAI Terms of Use — output ownership subject to applicable law",
+    "license_url": "https://openai.com/policies/terms-of-use/",
+    "date_retrieved": "2026-10-10",
+    "tool": "OpenAI image generation",
+    "source_file": "database/seeds/image-sources/langka-matcha.webp",
+    "small_file": "public/assets/demo/products/langka-matcha.webp",
+    "large_file": "public/assets/demo/products/langka-matcha@2x.webp",
+    "modifications": "Center square crop, resize, WebP compression",
+    "alt": "Iced green matcha with golden jackfruit pieces",
+    "dimensions": {
+      "small": [
+        640,
+        640
+      ],
+      "large": [
+        1280,
+        1280
+      ]
+    },
+    "bytes": {
+      "small": 27218,
+      "large": 74616
+    },
+    "quality": {
+      "small": 80,
+      "large": 80
+    },
+    "checks": [
+      "visual product match",
+      "square crop",
+      "file dimensions",
+      "file budget",
+      "dominant hue"
+    ],
+    "kind": "product"
+  },
+  {
+    "slug": "coffee-matcha",
+    "product": "Coffee Matcha",
+    "tier": "generated",
+    "source_url": null,
+    "author": "OpenAI image generation",
+    "license": "OpenAI Terms of Use — output ownership subject to applicable law",
+    "license_url": "https://openai.com/policies/terms-of-use/",
+    "date_retrieved": "2026-10-10",
+    "tool": "OpenAI image generation",
+    "source_file": "database/seeds/image-sources/coffee-matcha.webp",
+    "small_file": "public/assets/demo/products/coffee-matcha.webp",
+    "large_file": "public/assets/demo/products/coffee-matcha@2x.webp",
+    "modifications": "Center square crop, resize, WebP compression",
+    "alt": "Iced coffee matcha with espresso brown above green matcha milk",
+    "dimensions": {
+      "small": [
+        640,
+        640
+      ],
+      "large": [
+        1280,
+        1280
+      ]
+    },
+    "bytes": {
+      "small": 31264,
+      "large": 83788
+    },
+    "quality": {
+      "small": 80,
+      "large": 80
+    },
+    "checks": [
+      "visual product match",
+      "square crop",
+      "file dimensions",
+      "file budget",
+      "dominant hue"
+    ],
+    "kind": "product"
+  },
+  {
+    "slug": "matcha-basque-cheesecake",
+    "product": "Matcha Basque Cheesecake",
+    "tier": "generated",
+    "source_url": null,
+    "author": "OpenAI image generation",
+    "license": "OpenAI Terms of Use — output ownership subject to applicable law",
+    "license_url": "https://openai.com/policies/terms-of-use/",
+    "date_retrieved": "2026-10-10",
+    "tool": "OpenAI image generation",
+    "source_file": "database/seeds/image-sources/matcha-basque-cheesecake.webp",
+    "small_file": "public/assets/demo/products/matcha-basque-cheesecake.webp",
+    "large_file": "public/assets/demo/products/matcha-basque-cheesecake@2x.webp",
+    "modifications": "Center square crop, resize, WebP compression",
+    "alt": "Matcha Basque cheesecake slice with dark caramelized top and green interior",
+    "dimensions": {
+      "small": [
+        640,
+        640
+      ],
+      "large": [
+        1280,
+        1280
+      ]
+    },
+    "bytes": {
+      "small": 46188,
+      "large": 87790
+    },
+    "quality": {
+      "small": 80,
+      "large": 56
+    },
+    "checks": [
+      "visual product match",
+      "square crop",
+      "file dimensions",
+      "file budget",
+      "dominant hue"
+    ],
+    "kind": "product"
+  },
+  {
+    "slug": "matcha-mochi",
+    "product": "Matcha Mochi",
+    "tier": "generated",
+    "source_url": null,
+    "author": "OpenAI image generation",
+    "license": "OpenAI Terms of Use — output ownership subject to applicable law",
+    "license_url": "https://openai.com/policies/terms-of-use/",
+    "date_retrieved": "2026-10-10",
+    "tool": "OpenAI image generation",
+    "source_file": "database/seeds/image-sources/matcha-mochi.webp",
+    "small_file": "public/assets/demo/products/matcha-mochi.webp",
+    "large_file": "public/assets/demo/products/matcha-mochi@2x.webp",
+    "modifications": "Center square crop, resize, WebP compression",
+    "alt": "Soft green matcha mochi with one cake cut open to show its filling",
+    "dimensions": {
+      "small": [
+        640,
+        640
+      ],
+      "large": [
+        1280,
+        1280
+      ]
+    },
+    "bytes": {
+      "small": 32564,
+      "large": 81766
+    },
+    "quality": {
+      "small": 80,
+      "large": 76
+    },
+    "checks": [
+      "visual product match",
+      "square crop",
+      "file dimensions",
+      "file budget",
+      "dominant hue"
+    ],
+    "kind": "product"
+  },
+  {
+    "slug": "hojicha-cookie",
+    "product": "Hojicha Cookie",
+    "tier": "generated",
+    "source_url": null,
+    "author": "OpenAI image generation",
+    "license": "OpenAI Terms of Use — output ownership subject to applicable law",
+    "license_url": "https://openai.com/policies/terms-of-use/",
+    "date_retrieved": "2026-10-10",
+    "tool": "OpenAI image generation",
+    "source_file": "database/seeds/image-sources/hojicha-cookie.webp",
+    "small_file": "public/assets/demo/products/hojicha-cookie.webp",
+    "large_file": "public/assets/demo/products/hojicha-cookie@2x.webp",
+    "modifications": "Center square crop, resize, WebP compression",
+    "alt": "Two brown hojicha cookies with visible chunks",
+    "dimensions": {
+      "small": [
+        640,
+        640
+      ],
+      "large": [
+        1280,
+        1280
+      ]
+    },
+    "bytes": {
+      "small": 51336,
+      "large": 89828
+    },
+    "quality": {
+      "small": 80,
+      "large": 52
+    },
+    "checks": [
+      "visual product match",
+      "square crop",
+      "file dimensions",
+      "file budget",
+      "dominant hue"
+    ],
+    "kind": "product"
+  },
+  {
+    "slug": "matcha-tin",
+    "product": "Matcha Tin 30 g",
+    "tier": "generated",
+    "source_url": null,
+    "author": "OpenAI image generation",
+    "license": "OpenAI Terms of Use — output ownership subject to applicable law",
+    "license_url": "https://openai.com/policies/terms-of-use/",
+    "date_retrieved": "2026-10-10",
+    "tool": "OpenAI image generation",
+    "source_file": "database/seeds/image-sources/matcha-tin.webp",
+    "small_file": "public/assets/demo/products/matcha-tin.webp",
+    "large_file": "public/assets/demo/products/matcha-tin@2x.webp",
+    "modifications": "Center square crop, resize, WebP compression",
+    "alt": "Unbranded cylindrical green metal matcha tin with a simple leaf motif",
+    "dimensions": {
+      "small": [
+        640,
+        640
+      ],
+      "large": [
+        1280,
+        1280
+      ]
+    },
+    "bytes": {
+      "small": 18854,
+      "large": 58904
+    },
+    "quality": {
+      "small": 80,
+      "large": 80
+    },
+    "checks": [
+      "visual product match",
+      "square crop",
+      "file dimensions",
+      "file budget",
+      "dominant hue"
+    ],
+    "kind": "product"
+  },
+  {
+    "slug": "chasen-whisk",
+    "product": "Chasen Bamboo Whisk",
+    "tier": "generated",
+    "source_url": null,
+    "author": "OpenAI image generation",
+    "license": "OpenAI Terms of Use — output ownership subject to applicable law",
+    "license_url": "https://openai.com/policies/terms-of-use/",
+    "date_retrieved": "2026-10-10",
+    "tool": "OpenAI image generation",
+    "source_file": "database/seeds/image-sources/chasen-whisk.webp",
+    "small_file": "public/assets/demo/products/chasen-whisk.webp",
+    "large_file": "public/assets/demo/products/chasen-whisk@2x.webp",
+    "modifications": "Center square crop, resize, WebP compression",
+    "alt": "Bamboo chasen whisk with many fine curved tines and a solid handle",
+    "dimensions": {
+      "small": [
+        640,
+        640
+      ],
+      "large": [
+        1280,
+        1280
+      ]
+    },
+    "bytes": {
+      "small": 28988,
+      "large": 83794
+    },
+    "quality": {
+      "small": 80,
+      "large": 80
+    },
+    "checks": [
+      "visual product match",
+      "square crop",
+      "file dimensions",
+      "file budget",
+      "dominant hue"
+    ],
+    "kind": "product"
+  },
+  {
+    "slug": "chawan-bowl",
+    "product": "Chawan Bowl",
+    "tier": "generated",
+    "source_url": null,
+    "author": "OpenAI image generation",
+    "license": "OpenAI Terms of Use — output ownership subject to applicable law",
+    "license_url": "https://openai.com/policies/terms-of-use/",
+    "date_retrieved": "2026-10-10",
+    "tool": "OpenAI image generation",
+    "source_file": "database/seeds/image-sources/chawan-bowl.webp",
+    "small_file": "public/assets/demo/products/chawan-bowl.webp",
+    "large_file": "public/assets/demo/products/chawan-bowl@2x.webp",
+    "modifications": "Center square crop, resize, WebP compression",
+    "alt": "Wide handleless handmade ceramic chawan bowl",
+    "dimensions": {
+      "small": [
+        640,
+        640
+      ],
+      "large": [
+        1280,
+        1280
+      ]
+    },
+    "bytes": {
+      "small": 22548,
+      "large": 63324
+    },
+    "quality": {
+      "small": 80,
+      "large": 80
+    },
+    "checks": [
+      "visual product match",
+      "square crop",
+      "file dimensions",
+      "file budget",
+      "dominant hue"
+    ],
+    "kind": "product"
+  },
+  {
+    "kind": "brand",
+    "slug": "sign-in-hero",
+    "product": "Sign-in hero",
+    "tier": "generated",
+    "source_url": null,
+    "author": "OpenAI image generation",
+    "license": "OpenAI Terms of Use — output ownership subject to applicable law",
+    "license_url": "https://openai.com/policies/terms-of-use/",
+    "date_retrieved": "2026-10-10",
+    "tool": "OpenAI image generation",
+    "source_file": "public/assets/brand/sign-in-hero.webp",
+    "small_file": "public/assets/brand/sign-in-hero.webp",
+    "large_file": "public/assets/brand/sign-in-hero.webp",
+    "modifications": "Resize and WebP compression",
+    "alt": "A chawan of finely whisked matcha beside a bamboo chasen",
+    "dimensions": {
+      "display": [
+        1536,
+        1024
+      ]
+    },
+    "bytes": {
+      "display": 109582
+    },
+    "checks": [
+      "visual subject match",
+      "file dimensions",
+      "file budget"
+    ]
+  },
+  {
+    "kind": "brand",
+    "slug": "about-still-life",
+    "product": "About still life",
+    "tier": "generated",
+    "source_url": null,
+    "author": "OpenAI image generation",
+    "license": "OpenAI Terms of Use — output ownership subject to applicable law",
+    "license_url": "https://openai.com/policies/terms-of-use/",
+    "date_retrieved": "2026-10-10",
+    "tool": "OpenAI image generation",
+    "source_file": "public/assets/brand/about-still-life.webp",
+    "small_file": "public/assets/brand/about-still-life.webp",
+    "large_file": "public/assets/brand/about-still-life.webp",
+    "modifications": "Resize and WebP compression",
+    "alt": "Whisked green matcha in a ceramic chawan beside a bamboo whisk and plain tea tin",
+    "dimensions": {
+      "display": [
+        1254,
+        1254
+      ]
+    },
+    "bytes": {
+      "display": 108706
+    },
+    "checks": [
+      "visual subject match",
+      "file dimensions",
+      "file budget"
+    ]
+  }
+]

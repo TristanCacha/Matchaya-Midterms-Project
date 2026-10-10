@@ -1,0 +1,9 @@
+Options -Indexes
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    # InfinityFree serves htdocs as the fixed document root. Only public/ is
+    # reachable through this front door; source, vendor, and .env stay private.
+    RewriteRule ^public/ - [L]
+    RewriteRule ^(.*)$ public/$1 [L]
+</IfModule>

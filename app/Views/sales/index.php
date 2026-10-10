@@ -1,0 +1,15 @@
+<?= $this->extend('layouts/main') ?>
+<?= $this->section('content') ?>
+<div class="page-actions"><p><?= (int) $count ?> sale lines found. Newest first.</p><div class="button-row"><a class="button" href="<?= esc(site_url('sales/export') . '?' . http_build_query($filters), 'attr') ?>">Export CSV</a><a class="button button-primary" href="<?= esc(site_url('sales/new'), 'attr') ?>">Record sale</a></div></div>
+<form class="filter-form" method="get" action="<?= esc(site_url('sales'), 'attr') ?>">
+    <div><label for="from">From</label><input id="from" name="from" type="date" value="<?= esc($filters['from'] ?? '', 'attr') ?>"></div>
+    <div><label for="to">To</label><input id="to" name="to" type="date" value="<?= esc($filters['to'] ?? '', 'attr') ?>"></div>
+    <div><label for="staff">Staff</label><select id="staff" name="staff"><option value="">All staff</option><?php foreach ($staff as $person): ?><option value="<?= (int) $person['id'] ?>" <?= ($filters['staff'] ?? '') == $person['id'] ? 'selected' : '' ?>><?= esc($person['full_name']) ?></option><?php endforeach; ?></select></div>
+    <div><label for="customer">Customer</label><select id="customer" name="customer"><option value="">All customers</option><?php foreach ($customers as $person): ?><option value="<?= (int) $person['id'] ?>" <?= ($filters['customer'] ?? '') == $person['id'] ? 'selected' : '' ?>><?= esc($person['full_name']) ?></option><?php endforeach; ?></select></div>
+    <div><label for="product">Product</label><input id="product" name="product" maxlength="100" value="<?= esc($filters['product'] ?? '', 'attr') ?>"></div>
+    <button class="button button-primary" type="submit">Apply filters</button>
+</form>
+<?php if ($rows === []): ?><div class="empty-state"><svg class="empty-illustration" aria-hidden="true"><use href="<?= esc(base_url('assets/brand/empty-set.svg'), 'attr') ?>#steam"/></svg><p>No sales match these filters. Clear a filter or record a sale.</p></div><?php else: ?><div class="table-wrap"><table class="data-table"><caption class="sr-only">Sales history</caption><thead><tr><th scope="col">Date and time</th><th scope="col">Product</th><th scope="col">Customer</th><th scope="col">Staff</th><th scope="col">Qty</th><th scope="col">Total</th><th scope="col">Receipt</th></tr></thead><tbody>
+<?php foreach ($rows as $row): ?><tr><td data-label="Date and time"><?= esc(date('j M Y, g:i a', strtotime($row['created_at']))) ?></td><th scope="row" data-label="Product"><?= esc($row['product_name']) ?></th><td data-label="Customer"><?= esc($row['customer_name'] ?? 'Walk-in') ?></td><td data-label="Staff"><?= esc($row['staff_name']) ?></td><td data-label="Qty"><?= (int) $row['quantity'] ?></td><td data-label="Total" class="money"><?= esc(peso($row['total_price'])) ?></td><td data-label="Receipt"><a href="<?= esc(site_url('sales/receipt/' . $row['id']), 'attr') ?>">View</a></td></tr><?php endforeach; ?>
+</tbody></table></div><nav class="pagination" aria-label="Sales pages"><?= $pager ?></nav><?php endif; ?>
+<?= $this->endSection() ?>
